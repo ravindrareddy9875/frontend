@@ -1,0 +1,61 @@
+.AllHeadings {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Heading {
+    background-color: rgb(214, 228, 241);
+    color: rgb(51, 154, 240);
+    padding: 15px 10px 15px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 16%;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.Files {
+    height: 650px;
+    overflow-y: scroll;
+}
+.AllQuestions{
+    height: 650px;
+    overflow-y: scroll;
+}
+.InputBox{
+    color: red;
+    font-size: 40px;
+}
+.QuestionAndOptions{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 90%;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+    box-shadow: 0px 3px 4px 2px rgb(190, 193, 190);
+
+}
+.Question{
+    font-weight: bold;
+    font-size: 20px;
+}
+.BoxOption{
+    background-color: aliceblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Options{
+    font-size: 20px;
+    padding-left: 10px;
+}
+.AllVideos{
+    height: 650px;
+    overflow-y:scroll ;
+    margin-left: 30px;
+    margin-top: 10px;
+}

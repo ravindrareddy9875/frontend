@@ -1,0 +1,24 @@
+.NavBarMV{
+    position: absolute; 
+   bottom: 0; 
+   width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(213, 233, 250);
+    
+}
+.NavBarItemMV{
+  font-size: 12px;
+
+}
+.IconAndNavItem{
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    width: 15%;
+    cursor: pointer;
+}
+
+.FilesMV{
+    height: 720px;
+    overflow-y: scroll;
+}

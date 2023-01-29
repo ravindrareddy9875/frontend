@@ -1,0 +1,50 @@
+.AllChapters{
+    background-color: rgb(245, 245, 241);
+    width: 22%;
+   padding-left: 20px;
+   height: 750px;
+   overflow-y: scroll;
+   
+}
+.IndividualChapter{
+    display: flex;
+  cursor: pointer;
+}
+.IndividualChapter:hover{
+    background-color: rgb(225, 239, 247);
+}
+.ChapterName{
+    width: 75%;
+    font-weight: 500;
+    padding-left: 20px;
+    font-size: 18px;
+    
+}
+.RightIcon{
+    padding-top: 20px;
+
+}
+.PageIcon{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.AllTopics{
+    margin-left: 15px;
+    border: 1px solid rgb(225, 239, 247);
+    border-left-color: rgb(51,154,240);
+    margin-top: -0px;
+    
+}
+.IndividualTopic{
+    
+    color: rgb(60, 61, 62);
+    font-size: 18px;
+    font-weight: 500;
+    padding:10px 0px 10px 15px;
+
+}
+.IndividualTopic:hover{
+    background-color: rgb(51,154,240);
+    color: white;
+    
+}

@@ -1,0 +1,110 @@
+.ClassAndSubMV{
+    color: rgba(51,154,240,255);
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid rgba(51,154,240,255);
+    padding: 10px 20px 10px 20px;
+    margin:8px 0px 0px -10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
+.HeaderMV{
+    display: flex;
+    justify-content: space-between;
+}
+.LogoMV{
+    width: 30px;
+    margin: 8px 10px 20px 10px;
+    padding-top: 10px;
+
+}
+.GoHomeMV{
+    color: rgba(51,154,240,255);
+    font-weight: bold;
+    font-size: 18px;
+    border: 1px solid rgba(51,154,240,255);
+    padding: 10px 10px 0px 10px;
+    margin:18px 0px 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
+.MenuIconMV{
+    padding-top: 10px;
+    padding-left: 0px;
+    color: rgb(121, 123, 124);
+    cursor: pointer;
+}
+.SearchIconMV{
+    padding-top: 20px;
+    padding-right: 10px;
+    color: rgb(121, 123, 124);
+    cursor: pointer;
+}
+.SelectSubMV{
+    position: fixed;
+    margin-top: -8px;
+    background-color: white;
+    z-index: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   width: auto;
+   
+}
+.DialogBoxMV{
+   min-width: 300px;
+   max-width: 500px;
+    height: 500px;
+    overflow-y: scroll;
+}
+.DialogBoxMV::-webkit-scrollbar {
+    display: none;
+  }
+  .ClassListMV{
+    margin-top: 50px;
+  }
+
+.IndividualClassMV{
+    font-weight: 500;
+    font-size: 20px;
+}
+.RightIconMV{
+    padding-top: 8px;
+}
+.RightIconMV1{
+    padding-right: 20px;
+}
+.SubjectNameMV{
+    width: 200%;
+    margin-top: 1px;
+    margin-bottom: 5px;
+    background-color: rgb(197, 221, 242);
+    padding: 15px 5px 15px 10px;
+}
+.AllSubjectsMV{
+width: 100%;
+}
+
+.IndividualChapterMV{
+    display: flex;
+    padding: 10px 0px 10px 0px;
+    cursor: pointer;
+}
+.PageIconMV{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.IndividualTopicMV{
+     
+    color: rgb(60, 61, 62);
+    font-size: 18px;
+    font-weight: 500;
+    padding:10px 0px 10px 15px;
+    cursor: pointer;
+}
+.IndividualTopicMV:hover{
+    background-color: rgb(51,154,240);
+    color: white;
+  
+}
